@@ -1,0 +1,231 @@
+// main: ..//style.less
+
+.main {
+    margin: 50px 0;
+    background: url(.././images/dest/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .base {
+        margin-bottom: 30px;
+
+        a {
+            text-decoration: none;
+            opacity: 75%;
+            color: @gray;
+            font-size: 20px;
+
+            &:hover {
+                opacity: 45%;
+            }
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .left__cnt {
+            .products {
+                display: flex;
+                justify-content: space-between;
+                width: 500px;
+
+                .product__items {
+                    .product__item {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+
+            .desc {
+                width: 92%;
+                margin-top: 150px;
+
+
+                h3 {
+                    font-size: 28px;
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+
+                .instruction {
+                    width: 78%;
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    a {
+                        text-decoration: none;
+                        color: @pink;
+                        font-family: "MuseoSansBold";
+                        border-bottom: dashed 2px @pink;
+                        padding-bottom: 10px;
+
+                        &:hover {
+                            opacity: 75%;
+                        }
+                    }
+                }
+            }
+
+            .use {
+                width: 92%;
+                margin-top: 80px;
+
+                .use__item {
+                    margin-bottom: 30px;
+                    font-size: 22px;
+
+                    h4 {
+
+                        margin-bottom: 25px;
+                    }
+
+                    p {
+
+                        opacity: 65%;
+                    }
+                }
+            }
+        }
+
+        .right__cnt {
+            h2 {
+                font-size: 30px;
+                line-height: 36px;
+            }
+
+            h4 {
+                font-size: 20px;
+            }
+
+            .right__price {
+                margin-top: 30px;
+                font-family: "MuseoSansBlack";
+                display: flex;
+
+                span {
+                    font-size: 35px;
+                    margin-right: 10px;
+                }
+
+                s {
+                    font-size: 16px;
+                    opacity: 65%;
+                }
+            }
+
+            .right__basket {
+                width: 600px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    border-radius: 44px;
+                    padding: 13px 35px;
+                    border: 2px solid @pink;
+                    color: @white;
+                    transition: 0.2s;
+                    color: @pink;
+
+                    &:hover {
+                        background: @pink;
+                        color: @white;
+                    }
+                }
+
+                .order {
+                    padding: 13px 60px;
+                }
+            }
+
+            .natural {
+                display: flex;
+                flex-direction: column;
+
+                .natural__item {
+                    width: 500px;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 21px;
+
+                    .natural__text {
+                        margin-left: 20px;
+
+                        p {
+                            font-size: 20px;
+
+                            strong {
+                                font-family: "MuseoSansBlack";
+                            }
+                        }
+                    }
+                }
+            }
+
+            .awards {
+                margin-top: 150px;
+
+                h3 {
+                    font-size: 25px;
+                }
+
+                .awards__items {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 70%;
+                }
+            }
+
+            .advise {
+                margin-top: 30px;
+
+                h3 {
+                    font-size: 25px;
+                }
+
+                .advise__items {
+                    width: 107%;
+                    margin-top: 25px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    .advise__item {
+
+                        .advise__price {
+                            margin: 10px 0;
+                            display: flex;
+                            font-family: "MuseoSansBlack";
+                            
+
+
+
+                            span {
+                                font-size: 25px;
+                                margin-right: 10px;
+                            }
+
+                            s {
+                                opacity: 65%;
+                            }
+                        }
+
+                        h5 {
+                            font-size: 18px;
+                            opacity: 65%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
